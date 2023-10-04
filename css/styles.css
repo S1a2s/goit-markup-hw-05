@@ -415,6 +415,7 @@ img {
 }
 .footer-soc {
   align-items: center;
+  margin-right: 80px;
 }
 .foot-par {
   font-size: 16px;
@@ -452,4 +453,62 @@ img {
 }
 .svg-foot {
   fill: #f4f4fd;
+}
+
+.section-subscribe {
+}
+.footer-subscribe {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.form-subscribe {
+  display: flex;
+  gap: 24px;
+}
+.label-subscribe {
+}
+.input-subscribe {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.input-subscribe:placeholder {
+  color: #ffffff;
+}
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-btn:hover.subscribe-btn:focus {
+  background-color: #404bbf;
+}
+.svg-subs {
+  fill: #f4f4fd;
+  margin-left: 16px;
 }
