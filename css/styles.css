@@ -683,7 +683,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-
+.modal-privacy {
+  margin-bottom: 24px;
+}
 .check-text {
   color: #8e8f99;
   font-size: 12px;
@@ -704,7 +706,6 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
