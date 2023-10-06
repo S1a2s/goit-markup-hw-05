@@ -635,6 +635,10 @@ img {
 .modal-form-btn:focus {
   background-color: #404bbf;
 }
+.modal-form-btn:hover .modal-btn-icon,
+.modal-form-btn:focus .modal-btn-icon {
+  fill: #ffffff;
+}
 .input-wrap {
   position: relative;
 }
@@ -672,7 +676,6 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   cursor: pointer;
-  margin-bottom: 16px;
 }
 
 .modal-textarea:focus-within {
