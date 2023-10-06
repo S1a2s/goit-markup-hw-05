@@ -672,3 +672,35 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+
+.check-text {
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+}
+.check-text a {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+
+.check-text-box {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.modal-check:checked + .check-text > .check-text-box {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
