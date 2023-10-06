@@ -576,7 +576,7 @@ img {
 }
 .modal-btn-icon:hover.modal-btn,
 .modal-btn-icon:focus.modal-btn {
-  fill: #fff;
+  fill: #ffffff;
 }
 .modal-title {
   color: #2e2f42;
@@ -585,6 +585,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 .modal-field {
   margin-bottom: 8px;
