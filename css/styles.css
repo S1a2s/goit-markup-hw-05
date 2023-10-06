@@ -589,7 +589,7 @@ img {
   font-weight: 500;
 }
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-input {
   width: 100%;
@@ -677,6 +677,7 @@ img {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   cursor: pointer;
+  margin-bottom: 16px;
 }
 
 .modal-textarea:focus-within {
